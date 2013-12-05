@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_user_profile" >
+        <EditTextPreference 
+            	android:title="@string/pref_mobile1" 
+            	android:summary="@string/pref_mobile1_sum" 
+            	android:key="prefmobile1"/>
+        <EditTextPreference 
+            	android:title="@string/pref_mobile2" 
+            	android:summary="@string/pref_mobile2_sum" 
+            	android:key="prefmobile2"/>
+        <EditTextPreference 
+            	android:title="@string/pref_range" 
+            	android:summary="@string/pref_range_sum" 
+            	android:key="prefrange"/>
+        <EditTextPreference 
+            	android:title="@string/pref_longi" 
+            	android:summary="@string/pref_longi_sum" 
+            	android:key="preflongi"/>
+        <EditTextPreference 
+            	android:title="@string/pref_lati" 
+            	android:summary="@string/pref_lati_sum" 
+            	android:key="preflati"/>
+    </PreferenceCategory>
+    
+  
+
+</PreferenceScreen>
